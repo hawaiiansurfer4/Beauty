@@ -51,6 +51,7 @@
 		C484A1C52B191E6F00AB74CF /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484A1C42B191E6F00AB74CF /* RatingView.swift */; };
 		C484A1C72B19320100AB74CF /* TopRatedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484A1C62B19320100AB74CF /* TopRatedModel.swift */; };
 		C484A1C92B1A390100AB74CF /* TopRatedHorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484A1C82B1A390100AB74CF /* TopRatedHorizontalScrollView.swift */; };
+		C484A1CB2B1A46D600AB74CF /* SocialMediaButtonLookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484A1CA2B1A46D500AB74CF /* SocialMediaButtonLookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,7 @@
 		C484A1C42B191E6F00AB74CF /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		C484A1C62B19320100AB74CF /* TopRatedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedModel.swift; sourceTree = "<group>"; };
 		C484A1C82B1A390100AB74CF /* TopRatedHorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedHorizontalScrollView.swift; sourceTree = "<group>"; };
+		C484A1CA2B1A46D500AB74CF /* SocialMediaButtonLookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButtonLookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 				C484A1962B152AE800AB74CF /* PasswordView.swift */,
 				C484A19A2B152F5C00AB74CF /* StayLoggedInView.swift */,
 				C484A19C2B1532EE00AB74CF /* RoundedButtonWithImageView.swift */,
+				C484A1CA2B1A46D500AB74CF /* SocialMediaButtonLookView.swift */,
 				C484A1A82B17D04C00AB74CF /* ProfileIconView.swift */,
 				C484A1AA2B17D0D800AB74CF /* NotificationIconView.swift */,
 				C484A1AE2B17D62900AB74CF /* FeaturedItemView.swift */,
@@ -401,6 +404,7 @@
 				C484A1B52B18BC7200AB74CF /* NavigationBarView.swift in Sources */,
 				C484A17F2B07D3C300AB74CF /* SummaryTextView.swift in Sources */,
 				C484A18F2B0BF10C00AB74CF /* IntroScreenTwoView.swift in Sources */,
+				C484A1CB2B1A46D600AB74CF /* SocialMediaButtonLookView.swift in Sources */,
 				C484A1C92B1A390100AB74CF /* TopRatedHorizontalScrollView.swift in Sources */,
 				C484A1832B0802F600AB74CF /* IntroTabView.swift in Sources */,
 				C484A1B72B18D34800AB74CF /* AppView.swift in Sources */,

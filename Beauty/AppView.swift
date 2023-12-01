@@ -13,6 +13,7 @@ struct AppView: View {
             HomeView()
                 .tabItem({
                     Image(systemName: "house")
+                    Text("Home")
                 })
         }
         .tint(Color.primary)

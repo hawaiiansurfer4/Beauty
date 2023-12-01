@@ -20,17 +20,8 @@ struct RoundedButtonWithImageView: View {
             callBack()
         }, label: {
             
-            HStack {
-                
-                image
-                
-                Text(buttonTitle)
-                    .frame(maxWidth: .infinity)
-                    .font(.system(size: 16, weight: .semibold, design: .monospaced))
-                .foregroundColor(.black)
-            }
+            SocialMediaButtonLookView(buttonTitle: buttonTitle, image: image)
         })
-        .border(.buttonRedBackground, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
         .frame(width: 319, height: 56)
         .clipShape(.rect(cornerRadii: RectangleCornerRadii(topLeading: 50, bottomLeading: 50, bottomTrailing: 50, topTrailing: 50)))
     }
