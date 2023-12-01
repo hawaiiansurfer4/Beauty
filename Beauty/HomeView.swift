@@ -13,10 +13,6 @@ struct HomeView: View {
     
     @State private var searchText = ""
     
-    var topRatedArr: [TopRatedModel] = [
-//    TopRatedModel(image: "salon", title: <#T##String#>, starRating: <#T##Int#>)
-    ]
-    
     
     var body: some View {
         NavigationSplitView {
@@ -62,11 +58,8 @@ struct HomeView: View {
                         }
                         .padding(.horizontal, 16)
                         
-                        ScrollView(.horizontal, showsIndicators: false, content: {
-                            ForEach(1...7, id: \.self) { _ in
-                                
-                            }
-                        })
+                        TopRatedHorizontalScrollView()
+                            .padding(.leading)
                         
                         HStack {
                             Text("Featured")
@@ -76,6 +69,9 @@ struct HomeView: View {
                                 .padding(.trailing, 3)
                         }
                         .padding(.horizontal, 16)
+                        
+                        TopRatedHorizontalScrollView()
+                            .padding(.leading)
                         
                     }
                 }

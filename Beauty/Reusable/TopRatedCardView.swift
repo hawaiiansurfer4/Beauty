@@ -12,13 +12,22 @@ struct TopRatedCardView: View {
     let message: String
     let title: String
     let image: String
+    let rating: Int
+    let ratingCal: Int
     
     var body: some View {
         HStack {
-            Image(image)
-                .resizable()
-                .scaledToFit()
+            ZStack(alignment: .leading) {
+                Image(image)
+                    .resizable()
+                    .scaledToFit()
                 .frame(width: 160, height: 160)
+                
+                Image(.heart)
+                    .resizable()
+                    .frame(width: 28, height: 28)
+                    .offset(x: 12, y: CGFloat((-40)))
+            }
             
             VStack(alignment: .leading) {
                 HStack {
@@ -38,9 +47,9 @@ struct TopRatedCardView: View {
                     .foregroundStyle(Color.grayTitle)
                 
                 HStack {
-                    RatingView(rating: 4)
+                    RatingView(rating: rating)
                         .frame(height: 14)
-                    Text("4.9")
+                    Text("\(ratingCal)")
                         .font(.system(size: 12))
                         .foregroundStyle(.secondary)
                     
@@ -59,5 +68,5 @@ struct TopRatedCardView: View {
 }
 
 #Preview {
-    TopRatedCardView(message: "Lorem Ipsume is simple duppy text of the printing and type", title: "Gustavo Hair Salon", image: "salonChairs")
+    TopRatedCardView(message: "Lorem Ipsume is simple duppy text of the printing and type", title: "Gustavo Hair Salon", image: "nailIPaintingImage", rating: 4, ratingCal: 4)
 }
