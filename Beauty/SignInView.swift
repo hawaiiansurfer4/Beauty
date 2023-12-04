@@ -21,7 +21,7 @@ struct SignInView: View {
             
             Spacer()
             
-            PasswordView(textTitle: "Password", textUnderlined: "Enter your password")
+            PasswordView(textTitle: "Password", textUnderlined: "Enter your password", showPassword: false)
                 .padding(.bottom, 18)
             
             

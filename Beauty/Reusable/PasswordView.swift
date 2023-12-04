@@ -11,6 +11,8 @@ struct PasswordView: View {
     
     let textTitle: String
     let textUnderlined: String
+    @State var showPassword: Bool
+    
     var body: some View {
         VStack(alignment: .leading) {
             Text(textTitle)
@@ -20,8 +22,19 @@ struct PasswordView: View {
                 Text(textUnderlined)
                     .opacity(0.5)
                 Spacer()
-                Image(systemName: "eye")
-                    .opacity(0.5)
+                Button(action: {
+                    showPassword.toggle()
+                }, label: {
+                    if showPassword {
+                        Image(systemName: "eye")
+                            .opacity(0.5)
+                            .foregroundStyle(.gray)
+                    } else {
+                        Image(systemName: "eye.slash")
+                            .opacity(0.5)
+                            .foregroundStyle(.gray)
+                    }
+                })
             }
             Divider()
         }
@@ -30,5 +43,5 @@ struct PasswordView: View {
 }
 
 #Preview {
-    PasswordView(textTitle: "Password", textUnderlined: "Enter your password")
+    PasswordView(textTitle: "Password", textUnderlined: "Enter your password", showPassword: false)
 }

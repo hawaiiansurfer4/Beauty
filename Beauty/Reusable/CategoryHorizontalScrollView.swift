@@ -11,12 +11,13 @@ struct CategoryHorizontalScrollView: View {
     
     public var categoriesArr: [CategoryItemModel] = [
     CategoryItemModel(image: "salonChairs", title: "Manicure"),
-    CategoryItemModel(image: "salonChairs", title: "Manicure"),
-    CategoryItemModel(image: "salonChairs", title: "Manicure"),
-    CategoryItemModel(image: "salonChairs", title: "Manicure"),
-    CategoryItemModel(image: "salonChairs", title: "Manicure"),
-    CategoryItemModel(image: "salonChairs", title: "Manicure"),
-    CategoryItemModel(image: "salonChairs", title: "Manicure")
+    CategoryItemModel(image: "pedicureChairImage", title: "Pedicure"),
+    CategoryItemModel(image: "PartyMakeupImage", title: "Party Makeup"),
+    CategoryItemModel(image: "BeautyMakeUpImage", title: "Beauty Makeup"),
+    CategoryItemModel(image: "HairDyeImage", title: "Hair Dye"),
+    CategoryItemModel(image: "HairStylingImage", title: "Hair Styling"),
+    CategoryItemModel(image: "EyeMakeupImage", title: "Eye Makeup"),
+    CategoryItemModel(image: "WeddingMakeupImage", title: "Wedding Makeup"),
     ]
     
     var body: some View {

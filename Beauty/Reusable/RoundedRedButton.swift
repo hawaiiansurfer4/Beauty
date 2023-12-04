@@ -23,7 +23,7 @@ struct RoundedRedButton: View {
         })
         .background(
             Color.buttonRedBackground
-                .frame(width: 291, height: 56)
+                .frame(width: 319, height: 56)
                 .clipShape(.rect(cornerRadii: RectangleCornerRadii(topLeading: 50, bottomLeading: 50, bottomTrailing: 50, topTrailing: 50)))
             )
     }

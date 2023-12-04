@@ -16,10 +16,10 @@ struct ChangePasswordView: View {
             Text("Please provide the email address used to change the password")
                 .padding(.bottom, 37)
             
-            PasswordView(textTitle: "New Password", textUnderlined: "Enter your password")
+            PasswordView(textTitle: "New Password", textUnderlined: "Enter your password", showPassword: false)
                 .padding(.bottom, 37)
             
-            PasswordView(textTitle: "Retype Password", textUnderlined: "Enter your password")
+            PasswordView(textTitle: "Retype Password", textUnderlined: "Enter your password", showPassword: false)
                 .padding(.bottom, 90)
             
             RoundedRedButton(buttonTitle: "Reset Password", callBack: {print("Reset password pressed")})

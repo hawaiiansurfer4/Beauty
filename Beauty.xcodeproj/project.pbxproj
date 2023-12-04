@@ -52,6 +52,9 @@
 		C484A1C72B19320100AB74CF /* TopRatedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484A1C62B19320100AB74CF /* TopRatedModel.swift */; };
 		C484A1C92B1A390100AB74CF /* TopRatedHorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484A1C82B1A390100AB74CF /* TopRatedHorizontalScrollView.swift */; };
 		C484A1CB2B1A46D600AB74CF /* SocialMediaButtonLookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484A1CA2B1A46D500AB74CF /* SocialMediaButtonLookView.swift */; };
+		C484A1CD2B1E243000AB74CF /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484A1CC2B1E243000AB74CF /* CategoryGridView.swift */; };
+		C484A1CF2B1E556B00AB74CF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484A1CE2B1E556B00AB74CF /* ProfileView.swift */; };
+		C484A1D12B1E71E700AB74CF /* CatgoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484A1D02B1E71E700AB74CF /* CatgoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +123,9 @@
 		C484A1C62B19320100AB74CF /* TopRatedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedModel.swift; sourceTree = "<group>"; };
 		C484A1C82B1A390100AB74CF /* TopRatedHorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedHorizontalScrollView.swift; sourceTree = "<group>"; };
 		C484A1CA2B1A46D500AB74CF /* SocialMediaButtonLookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButtonLookView.swift; sourceTree = "<group>"; };
+		C484A1CC2B1E243000AB74CF /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		C484A1CE2B1E556B00AB74CF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C484A1D02B1E71E700AB74CF /* CatgoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatgoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +188,7 @@
 				C484A1A02B1677C700AB74CF /* ForgotPasswordView.swift */,
 				C484A1A62B17CDCE00AB74CF /* HomeView.swift */,
 				C484A1B62B18D34800AB74CF /* AppView.swift */,
+				C484A1CE2B1E556B00AB74CF /* ProfileView.swift */,
 				C484A1892B0BE21700AB74CF /* Models */,
 				C484A1842B08032600AB74CF /* Utility */,
 				C484A1792B07B37300AB74CF /* Reusable */,
@@ -237,11 +244,13 @@
 				C484A1B42B18BC7200AB74CF /* NavigationBarView.swift */,
 				C484A1B82B18D43900AB74CF /* FilterButtonView.swift */,
 				C484A1BA2B18DAE100AB74CF /* CategoriesItemView.swift */,
+				C484A1D02B1E71E700AB74CF /* CatgoryView.swift */,
 				C484A1BE2B18DE8200AB74CF /* CategoryHorizontalScrollView.swift */,
 				C484A1C22B191D7400AB74CF /* TopRatedCardView.swift */,
 				C484A1C82B1A390100AB74CF /* TopRatedHorizontalScrollView.swift */,
 				C484A1BC2B18DDA800AB74CF /* SeeAllButtonView.swift */,
 				C484A1C42B191E6F00AB74CF /* RatingView.swift */,
+				C484A1CC2B1E243000AB74CF /* CategoryGridView.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -408,11 +417,13 @@
 				C484A1C92B1A390100AB74CF /* TopRatedHorizontalScrollView.swift in Sources */,
 				C484A1832B0802F600AB74CF /* IntroTabView.swift in Sources */,
 				C484A1B72B18D34800AB74CF /* AppView.swift in Sources */,
+				C484A1CD2B1E243000AB74CF /* CategoryGridView.swift in Sources */,
 				C484A19D2B1532EF00AB74CF /* RoundedButtonWithImageView.swift in Sources */,
 				C484A1522B07B36100AB74CF /* Item.swift in Sources */,
 				C484A1AB2B17D0D800AB74CF /* NotificationIconView.swift in Sources */,
 				C484A1C72B19320100AB74CF /* TopRatedModel.swift in Sources */,
 				C484A1B32B17D70E00AB74CF /* TabItem.swift in Sources */,
+				C484A1D12B1E71E700AB74CF /* CatgoryView.swift in Sources */,
 				C484A18B2B0BE23B00AB74CF /* TitleSummaryModel.swift in Sources */,
 				C484A1932B1512F600AB74CF /* SignInView.swift in Sources */,
 				C484A1912B0BF34600AB74CF /* IntroScreenThreeView.swift in Sources */,
@@ -434,6 +445,7 @@
 				C484A1A92B17D04C00AB74CF /* ProfileIconView.swift in Sources */,
 				C484A1A72B17CDCE00AB74CF /* HomeView.swift in Sources */,
 				C484A1C52B191E6F00AB74CF /* RatingView.swift in Sources */,
+				C484A1CF2B1E556B00AB74CF /* ProfileView.swift in Sources */,
 				C484A1952B151AC200AB74CF /* EmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

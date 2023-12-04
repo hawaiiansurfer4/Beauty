@@ -24,6 +24,7 @@ struct CategoriesItemView: View {
                         .foregroundStyle(Color.grayTitle)
                 }
             }
+            
         })
     }
 }
